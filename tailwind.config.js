@@ -5,7 +5,11 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage:{
+        "dots":"url('./src/assets/Group.png')"
+      }
+    },
   },
   plugins: [],
 }
